@@ -1,0 +1,96 @@
+@import url(./style2.css);
+
+
+*{
+    margin: 0;
+  
+}
+.Layout{
+    background-color:rgb(80, 94, 249);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+     position: fixed;
+    top: 0;
+    z-index: 1;    
+
+
+ 
+}
+
+.content li{
+    display: inline;
+    padding: 20px;
+   
+
+  
+}
+.About{
+    margin-left: 800px;
+}
+.content a{
+ color: white;
+ text-decoration: none;
+}
+/* card layout style */
+.card-layout{
+  
+    background-color: royalblue;
+    width: 250px;
+     margin: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-left: 60px;
+     transition: 0.9s ease;
+    
+}
+.card-layout:hover{
+    transform:rotate(360deg)
+}
+
+.image-layout img{
+    margin-left: -10px;
+
+   
+      width: 130px;
+      height: 130px;
+  border-radius: 50%;
+  border: 3px solid white;
+  padding: 3px; 
+}
+
+.image-layout{
+  padding: 20px 70px;     
+
+}
+   
+
+.content-layout{
+ background-color: #fcf6f6;
+ padding: 25px;
+border-radius: 20px;
+ text-align: center;
+ 
+ 
+}
+.content-layout h3{
+    text-align: center;
+   
+      margin-bottom: 10px;
+}
+.content-layout p{
+     color: gray;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+ 
+ button{
+     background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+  width: 150px;
+  margin-left: 10px;
+ }
+
